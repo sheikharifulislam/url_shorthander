@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <div>
+                    <h1 class="hading">Write Logn URL:</h1>
+                    <div class="input-area">
+                        <input type="text" placeholder="Type logn URL here" id="long-url" />
+                        <button id="short-generate">Generate Short URL</button>
+                        <h1 class="link-title">
+                            Your short URL is: <span id="short"></span
+                            ><span class="copy-button" id="short-copy">Copy</span>
+                        </h1>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="hading">Write Short URL:</h1>
+                    <div class="input-area">
+                        <input type="url" placeholder="Type short URL here" name="" id="short-url" />
+                        <button id="long-generate">Retrieve Logn URL</button>
+                        <h1 class="link-title">
+                            The original URL is: <span id="long"></span
+                            ><span class="copy-button" id="long-copy">Copy</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

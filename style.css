@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.hading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input-area {
+    margin-bottom: 40px;
+}
+
+.input-area input {
+    width: 300px;
+    padding: 13px 0 13px 15px;
+    border-radius: 4px;
+    border: 2px solid rgb(35, 198, 114);
+}
+
+.input-area button {
+    padding: 16px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(35, 198, 114);
+    color: #fff;
+}
+
+.link-title {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copy-button {
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(35, 198, 114);
+}
